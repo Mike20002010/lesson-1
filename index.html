@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Мої захоплення</title>
+    </title>
     <style> 
 
     body {
@@ -34,6 +35,10 @@
     
   }
 
+ul li::marker {
+  color: rgb(255, 102, 0);
+}
+
     img {
         width: 200px;
         height: 150px;
@@ -43,7 +48,66 @@
         border-radius: 12px; 
     }
 
- 
+    .article {
+        color: white;
+    }
+
+    .top-title {
+         font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #00c6ff, #fefeff, #00c6ff, #fefeff,#00c6ff, #fefeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 40px;
+       
+    }
+
+.imgMegogo {
+
+width: 400px;
+height: 250px;
+margin-bottom: 25px;
+border-color: aquamarine;
+
+}
+    .line {
+border: none;              
+  height: 4px;               
+  width: 70%;   
+  border-radius: 10px;
+  margin-top: 60px;          
+  background: linear-gradient(to right,  #fffefe, #ff7b00, #000000, white, #ff7b00, #fffefe, #ff7b00, #000000, white, #ff7b00  ); 
+    }
+
+    .cm {
+        color: #fd5d00;
+    }
+    
+
+    .grText {
+      background: linear-gradient(to right, hsl(189, 100%, 50%), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+.meglog {
+width: 50px;
+height: 50px;
+border-image: linear-gradient(to right, rgb(0, 247, 255), rgb(255, 254, 255)) 1;
+border-radius: 12px;
+
+     }
+
+    .ol {
+        text-align: left;
+        color: white;
+        font-size: 1em;
+        margin: 0 auto;
+        padding: 0;
+        width: 20%;
+        margin-top: 100px;
+ }
     </style>
 </head>
 <body>
@@ -61,6 +125,47 @@
     <li>настільний теніс</li>
     <li>перегляд фільмів</li>
     <li>ігри на ПК</li>
+</ul>
+<hr class="line">
+
+<div class="article">
+     
+    <h2 class="top-title"> <span class="cm">Де</span> дивитися фільми</span></h2>
+     <p>Особисто я дивлюся фільми на MEGOGO.</p>
+     <img class="imgMegogo" src="images/megogo.jpg" alt="megogo">
+    <p class="grText">Щоб дізнатися більше, жми нижче.</p>
+     <a target="_blank" href="https://megogo.net/ua?admitad_uid=Cj0KCQjwqebEBhD9ARIsAFZMbfxvK8UMl_BdkSncnt64iNlH5eJgKgxnyTRadZtcNEO0M8EsACWQjO0aAjzqEALw_wcB&utm_source=admitad_Cj0KCQjwqebEBhD9ARIsAFZMbfxvK8UMl_BdkSncnt64iNlH5eJgKgxnyTRadZtcNEO0M8EsACWQjO0aAjzqEALw_wcB&utm_medium=vclicks&gad_source=1&gad_campaignid=22282125084&gbraid=0AAAAA-8e0-zi1xgzzt_4XI62RLGAKQo1_&gclid=Cj0KCQjwqebEBhD9ARIsAFZMbfxvK8UMl_BdkSncnt64iNlH5eJgKgxnyTRadZtcNEO0M8EsACWQjO0aAjzqEALw_wcB">
+        <img class="meglog" src="images/megogoLogo.svg" alt="Mogogo Logo">
+     </a>
+
+</div>
+
+<ol class="ol">
+
+    <li>
+<h2>Lorem, ipsum dolor.
+</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nostrum. Alias voluptatem, iste obcaecati corporis dolorem dicta saepe quisquam dolorum.</p>
+    </li>
+
+    <li>
+<h2>Lorem, ipsum dolor.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sint aut rerum dolorum autem explicabo voluptate fuga dolore. Architecto, dignissimos!</p>
+    </li>
+
+    <li>
+<h2>Lorem, ipsum dolor.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magnam optio veniam perferendis in illum consequuntur dolore dolorem, quas repudiandae.</p>
+    </li>
+
+</ol>
+
+<ul>
+<li> <a href="https://www.facebook.com/?locale=ru_RU" target=blank>facebook</a></li>
+<li><a href="https://ua.linkedin.com/" target=blank>linkedin</a></li>
+<li><a href="https://x.com/" target=blank>twitter</a></li>
+<li><a href="https://www.reddit.com/" target=blank>reddit</a></li>
+<li><a href="https://imgur.com/" target=blank>imgur</a></li>
 </ul>
 
 </body>
